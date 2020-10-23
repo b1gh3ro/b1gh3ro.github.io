@@ -1,0 +1,18 @@
+
+.container{
+ text-align: center; 
+ margin: auto; 
+ font-size: xx-large;
+ 
+}
+th, tr, td{
+    border: 1px solid red;
+}
+table{
+    border: 1px solid blue;   
+    width: 50%;
+    margin: auto;    
+}
+header{
+    text-decoration: underline blue dotted;
+}
