@@ -44,6 +44,7 @@ color: white;
 font-size: 40px;
 padding-bottom: 10px;
 text-align: right;
+
 }
 @media(max-width:1300px){
     button{
@@ -57,9 +58,11 @@ text-align: right;
     .full{
         width: 60%;
         margin: 0px;
-      
+      padding-right: 15%;
     }
+   
 }
+
 .input-num{
     width: 100%;
     padding-top: 50px;
