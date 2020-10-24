@@ -1,0 +1,73 @@
+.container{
+  
+    display: grid;
+    grid-gap: 7px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+  
+}
+button{
+   
+    border-radius: 100%;
+    border: 1px solid black;
+   padding: 25px;
+   outline: none;
+    cursor: pointer;
+}
+.zero{
+    padding-right: 50px;
+    grid-column-end: 3;
+    grid-column-start: 1;
+    border-radius: 40px;
+    background-color: rgba(107, 106, 106, 0.685)
+}
+.full{
+    background-color: black;
+    width: 20%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+    padding-top: 100px;
+   padding-bottom: 50px;
+}
+.coral{
+    background-color:#f1a33c;
+}
+.grey{
+    background-color: rgba(247, 243, 243, 0.925);
+}
+.dark{
+    background-color: rgba(107, 106, 106, 0.685);
+}
+.input{
+color: white;
+font-size: 40px;
+padding-bottom: 10px;
+text-align: right;
+}
+@media(max-width:1300px){
+    button{
+        padding: 10px;
+    }
+}
+@media(max-width:600px){
+    button{
+        padding: 20px;
+    }
+    .full{
+        width: 60%;
+        margin: 0px;
+      
+    }
+}
+.input-num{
+    width: 100%;
+    padding-top: 50px;
+    font-size: 50px;
+    text-align: right;
+    background-color: black;
+    color: white;
+}
+.secret{
+    border: none;
+}

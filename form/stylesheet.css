@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+  .container{
+      text-align: center;
+     
+
+      padding-bottom: 50px;
+      padding-top: 50px;
+      margin: 20%;
+      margin-top: 100px;
+      background-color: whitesmoke;
+      
+      
+
+  }
+  #my-form label{
+     display: block;
+     margin-right: 170px;
+     font-size: 30px;
+
+  }
+
+  #my-form [type=text], [type=email]{
+      padding-right: 100px;
+      line-height: 30px;
+      
+  }
+  .button{
+      margin-top: 15px;
+      padding-left: 100px;
+      padding-right: 100px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      text-align: center;
+      background-color: black;
+      color: white;
+  }
+ .button:hover{
+     background-color: red;
+ }
+
+ .msg{
+     color: red;
+     font-size: 10px;
+     background-color: #333;
+     width: 50%;
+     margin: auto;
+ }
+  

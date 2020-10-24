@@ -14,21 +14,52 @@ h1{
     background-repeat: no-repeat;
     height: 100vh;
 }
-.nav-bar li{
-    list-style: none;
-    display: inline;
-    text-decoration: none;
-    text-align: right;
-    margin-left: 100px;
-    
-    
-}
+
 .nav-bar{
+    height: 60px;
     
-    height: 50px;
-    padding-top: 20px;
     background-color:#55d6aa;
- 
+   
+    
 }
+.menu{
+    float: right;
+    margin-right: 100px;
+    padding-top: 20px;
+    
+}
+.menu:hover{
+    color: red;
+    box-shadow: inset 0 5px red;
+}
+.nav li{
+    list-style: none;
+    text-align: center;
+    position: relative;
+    
+}
+.sub-menu{
+ display: block;
 
-
+}
+.nav.ul{
+    width: 60%;
+    list-style: none;
+}
+.nav li ul{
+    margin-top: 20px;
+}
+.sub-menu{
+    position: absolute;
+    display: none;
+    background-color: #55d6aa;
+    padding: 10px;
+    margin-bottom: 10px;
+   
+}
+.sub-menu:hover{
+    box-shadow: inset 0 5px red;
+}
+.nav ul li:hover .sub-menu{
+    display: block;
+}
