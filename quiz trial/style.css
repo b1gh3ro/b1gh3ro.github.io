@@ -1,0 +1,41 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+}
+
+
+body{
+display: flex;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ width: 100vw;
+ height: 100vh;
+   padding: 0px;
+   margin: 0px;
+   background-color: rgb(5, 5, 112);
+}
+
+h1{
+    margin-bottom: 30px;
+    margin-top: 0px;
+    
+}
+.answer-btn{
+display: grid;
+grid-template-columns:  50% 50%;
+grid-template-rows: 50% 50%;
+margin-bottom: 10px;
+}
+.btn{
+    padding:20px;
+}
+.container{
+    width: 80%;
+    background-color:white;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
