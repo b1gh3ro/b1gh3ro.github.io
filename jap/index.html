@@ -82,16 +82,31 @@
     AOS.init();
   </script>
   <script>
-   $(window).on("load", function(){
+    
+   $(window).on("load", function loadwrap(){
     $('.loader-wraper').fadeOut(1000)
    })
-   
+   var i;
+   for (let i = 1; i < 10; i++) {
+  setTimeout(function timer() {
+    if($('.load-wrapper').is(":visible")){
+      console.log('not now')
+    }else{
+      animations()
+    };
+  }, i * 3000);
+}
+$('#navbar').hide()
+$('#japan').hide()
 
-  $(document).ready(function(){
-    $('#navbar').hide().slideDown(1500).slideUp(1500).stop(700).slideDown(700)
+   
+   function animations(){
+  $(document).ready(function animation(){
+    $('#navbar').slideDown(3000)
     $('#welcome-to').fadeOut(3000)
-    $('#japan').hide().delay(3000).slideDown(1000)
+    $('#japan').delay(3000).slideDown(1000)
   })
+   }
   $('[data-aos]').parent().addClass('hideOverflowOnMobile');
 
 
