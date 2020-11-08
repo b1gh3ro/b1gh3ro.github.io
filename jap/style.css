@@ -3,6 +3,7 @@
     padding: 0px;
     font-family: 'Permanent Marker', cursive;
     scroll-behavior: smooth;
+    overflow: auto;
 }
 body{
     background-color: #242f3f;
@@ -23,12 +24,12 @@ a{
     background-size: cover;
     background-position: center;
     background-repeat: none;
+
     
 }
 li{
 list-style: none;
 display: inline;
-margin-right:20px;
 float: right;
 font-size: 25px;
 
@@ -68,6 +69,9 @@ img{
      padding-bottom: 10px;
      margin-top: -11px;
     }
+  #navbar{
+    width: 100%;
+  }
   }
 
 
