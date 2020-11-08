@@ -10,7 +10,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
-  
   <div class="loader-wraper">
   <span class="loader"><span class="loader-inner"></span></span>
   </div>
@@ -83,13 +82,17 @@
     AOS.init();
   </script>
   <script>
-  
+    $(window).on('load', function(){
+      $('.loader-wraper').fadeOut(1000)
+    })
   $(document).ready(function(){
     $('#navbar').hide().slideDown(1500).slideUp(1500).stop(700).slideDown(700)
     $('#welcome-to').fadeOut(3000)
     $('#japan').hide().delay(3000).slideDown(1000)
-    $('.loader-wraper').delay(1000).fadeOut(1000)
   })
+  $('[data-aos]').parent().addClass('hideOverflowOnMobile');
+
+
   </script>
   <footer>for more info click <a href="https://www.japan.travel/en/" target="_blank">here</a></footer>
 

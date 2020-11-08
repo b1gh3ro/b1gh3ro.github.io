@@ -3,7 +3,7 @@
     padding: 0px;
     font-family: 'Permanent Marker', cursive;
     scroll-behavior: smooth;
-    overflow: auto;
+
 }
 body{
     background-color: #242f3f;
@@ -159,3 +159,8 @@ body {
     height: 0%;
   }
 }
+@media (max-width: 1000px) {
+  .hideOverflowOnMobile {
+  overflow: hidden;
+  }
+  }
