@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+  <div class="loader-wraper">
+  <span class="loader"><span class="loader-inner"></span></span>
+  </div>
+
+  <div id="navbar">
+    
+    <ul>
+      
+      <li class="nav-item"><a href="#cards"> start your journey</a></li>
+    </ul>
+    </div>
+
+  <div id="first-slide">
+    <h1 id="welcome-to">welcome to</h1>
+  <h1 id="japan">Japan</h1>
+  </div>
+  <div id="cards">
+<section class="card" >
+      <img src="images/ginkaku-ji-temple-1464542.jpg" alt="" data-aos="slide-left">
+    <div class="text" data-aos="slide-right">
+      <p><h1>Kyoto</h1>Kyoto is considered the cultural capital of Japan and a major tourist destination. It is home to numerous Buddhist temples, Shinto shrines, palaces and gardens, some of which are listed collectively by UNESCO as a World Heritage Site.</p>
+      </div>
+</section>
+<section class="card">
+      <img src="images/landscape-2124033.jpg" alt="" data-aos="slide-right">
+      <div class="text" data-aos="slide-left">
+      <p><h1>Mount Yoshino</h1>Mount Yoshino (吉野山, Yoshinoyama), in Nara Prefecture, has been Japan's most famous cherry blossom viewing spot for many centuries. It is said that the first trees were planted along its slopes more than 1300 years ago, and today the mountain is covered by approximately 30,000 cherry trees of many different varieties, especially of the Yamazakura variety.</p>
+      </div>
+</section>
+<section class="card">
+  <img src="images/imperial tokyo.jpg" alt="" data-aos="slide-left">
+  <div class="text" data-aos="slide-right">
+  <p><h1>Imperial Tokyo</h1>The current Imperial Palace (皇居, Kōkyo) is located on the former site of Edo Castle, a large park area surrounded by moats and massive stone walls in the center of Tokyo, a short walk from Tokyo Station. It is the residence of Japan's Imperial Family.</p>
+  </div>
+</section>
+<section class="card">
+  <img src="images/mount fuji.jpg" alt="" data-aos="slide-right">
+  <div class="text" data-aos="slide-left">
+  <p><h1>Mount Fuji</h1>Mount Fuji (富士山, Fujisan) is with 3776 meters Japan's highest mountain. It is not surprising that the nearly perfectly shaped volcano has been worshiped as a sacred mountain and experienced big popularity among artists and common people throughout the centuries.</p>
+  </div>
+</section>
+<section class="card">
+  <img src="images/osaka.jpg" alt="" data-aos="slide-left">
+  <div class="text" data-aos="slide-right">
+  <p><h1>osaka</h1>The current Imperial Palace (皇居, Kōkyo) is located on the former site of Edo Castle, a large park area surrounded by moats and massive stone walls in the center of Tokyo, a short walk from Tokyo Station. It is the residence of Japan's Imperial Family.</p>
+  </div>
+</section>
+<section class="card">
+  <img src="images/hakone.jpg" alt="" data-aos="slide-right">
+  <div class="text" data-aos="slide-left">
+  <p><h1>hakone</h1>Hakone (箱根) is part of the Fuji-Hakone-Izu National Park, less than one hundred kilometers from Tokyo.
+
+    Famous for hot springs, natural beauty and the view across Lake Ashinoko of nearby Mount Fuji, Hakone is one of the most popular destinations among Japanese and international tourists looking for a break from Tokyo.</p>
+  </div>
+</section>
+<section class="card">
+  <img src="images/hokaido.jpg" alt="" data-aos="slide-left">
+  <div class="text" data-aos="slide-right">
+  <p><h1>Hokkaido</h1>Japan’s northern island is famous for its beautiful wilderness, world class powder snow, delicious seafood and fascinating indigenous culture. Just a short flight from Tokyo, Hokkaido is the perfect escape in all seasons
+    Hokkaido is a popular destination for skiing and snowboarding in winter, thanks to its abundant powder snow and top resorts like Niseko, Rusutsu and Furano. Sapporo, Hokkaido’s main city, famous for Sapporo beer, Sapporo ramen and the annual Sapporo Snow Festival. </p>
+  </div>
+</section>
+  </div>
+
+
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script>
+    $(window).on('load', function(){
+      $('.loader-wraper').fadeOut(1000)
+    })
+  $(document).ready(function(){
+    $('#navbar').hide().slideDown(1500).slideUp(1500).stop(700).slideDown(700)
+    $('#welcome-to').fadeOut(3000)
+    $('#japan').hide().delay(3000).slideDown(1000)
+  })
+  </script>
+  <footer>for more info click <a href="https://www.japan.travel/en/" target="_blank">here</a></footer>
+
+  <footer>none of the content provided above was not taken/written by me.</footer>
+  <footer>contact me at saadmujeeb1008@gmail.com</footer>
+</body>
+</html>
+
