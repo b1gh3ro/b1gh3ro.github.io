@@ -92,7 +92,7 @@
     if($('.load-wrapper').is(":visible")){
       console.log('not now')
     }else{
-      animations()
+      setTimeout(animations(),100);
     };
   }, i * 3000);
 }
