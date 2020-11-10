@@ -7,6 +7,10 @@
 }
 body{
     background-color: #242f3f;
+    background-image: url('https://lh3.googleusercontent.com/K0kMvJj3-mj0OvFIU7d534kXz3_BHcQXd4UFZVv31hoooLLDno6zPVn1HzI7KbRtFUGBcnapUpGWqVhvu3TbeHEGuLr0FfNh3eXPCVk87BEPVP2lOR6n2H0xHIzZdTOV5x8_gIPYnw=w2400?source=screenshot.guru');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 a{
     color: black;
@@ -20,11 +24,7 @@ a{
     width: 100vw;
     height: 100vh;
     font-size: 40px;
-    background-image: url('https://lh3.googleusercontent.com/K0kMvJj3-mj0OvFIU7d534kXz3_BHcQXd4UFZVv31hoooLLDno6zPVn1HzI7KbRtFUGBcnapUpGWqVhvu3TbeHEGuLr0FfNh3eXPCVk87BEPVP2lOR6n2H0xHIzZdTOV5x8_gIPYnw=w2400?source=screenshot.guru');
-    background-size: cover;
-    background-position:center;
-    background-repeat: none;
-    background-attachment: fixed;
+  
     
 }
 li{
