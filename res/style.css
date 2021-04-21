@@ -1,0 +1,96 @@
+:root{
+    --bg1: url(images/pizza.jpeg);
+    --bg2: url(images/hot-2574466__480.jpg);
+    --bg3: url(images/coffee.jpeg);
+    --bg4: url(images/chicken.jpg);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    padding-left: 10px;
+    font-size: 50px;
+    color: white;
+    float: left;
+   
+
+}
+.right-side li{
+    display: inline;
+    
+    
+}
+.right-side ul{
+    text-align: right;
+   font-size: 20px;
+   padding-right: 10px;
+   font-family: 'Pacifico', cursive ;
+   padding-top: 30px;
+
+}
+.right-side ul {
+    margin-right: 10px;
+
+}
+.box{
+    background-image: var(--bg1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    transition-property: all;
+    transition-duration: 0.5s;
+    
+}
+
+
+.main-text li{
+    display: inline;
+    margin-left: 60px;
+   font-size: 80px;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+}
+.main-text ul{
+    padding-top: 40vh;
+    width: 50%;
+    margin: auto;
+}
+@media(max-width:1300px){
+    .main-text li{
+      
+       margin-left: 0px;
+       
+    }
+    .main-text ul{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+
+.eat:hover{
+    text-decoration-line: underline;
+}
+.drink:hover{
+    text-decoration-line: underline;
+}
+.order:hover{
+    text-decoration-line: underline;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:visited{
+    text-decoration: none;
+}
+li{
+    transition: all 1s ease;
+}
