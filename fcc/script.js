@@ -12,7 +12,7 @@ $(document).ready(function(){
         $('#circle').css('left', e.clientX + 'px')
     })
 
-$('h1:first').hover(function(){
+$('#welcome-section').hover(function(){
     $('img').css('width', '200px')
     $('img').css('height', '200px')
 }, function(){
